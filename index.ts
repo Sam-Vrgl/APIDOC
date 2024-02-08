@@ -20,31 +20,30 @@ const app = express();
 /**
  *
  * @swagger
- * /weather/{city}:
+ * /player/summary/{playerID}:
  *   get:
- *     summary: Récupérer les informations météo d'une ville
+ *     summary: Récupérer les informations d'un joueur
  *     description: "'''''''''"
- *     tags: [Weather]
+ *     tags: [Trackmania]
  *     parameters:
  *       - in: path
- *         name: city
+ *         name: playerID
  *         required: true
- *         description: Le nom de la ville
+ *         description: ID du joueur
  *         schema:
  *           type: string
  *     responses:
  *       200:
- *         description: succes, retourne les informations météo de la ville
+ *         description: Succès, retourne les informations du joueur.
  *       400:
- *         description: Erreur lors de la récupération des informations météo
+ *         Description: Erreur lors de la récupération des informations.
  */
 
 const options: AxiosRequestConfig = {
   method: 'GET',
-  url: 'https://trackmania.p.rapidapi.com/matches/matchmaking',
+  url: 'https://trackmania.p.rapidapi.com/player/summary',
   params: {
-    page: '0',
-    limit: '10'
+    player_id: '599b1202-97b6-4189-ba95-288b9b949ead'
   },
   headers: {
     'X-RapidAPI-Key': 'b984860ef9msh5bd83e7546e4cc5p1a0be5jsnfc5a565f57e1',
@@ -68,4 +67,4 @@ app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
 
-fetchData();
+// fetchData();
