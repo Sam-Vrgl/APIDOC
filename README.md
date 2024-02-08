@@ -25,6 +25,7 @@ This project is a web application that allows users to track their progress in t
 ## API Documentation
 
 For detailed API documentation, please refer to the swagger documentation at `http://localhost:3000/api-doc`
+Original documentation can be found at this link: <https://rapidapi.com/felixeschmittfes/api/trackmania>
 
 ## Contributing
 
