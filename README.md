@@ -1,6 +1,6 @@
-# Project Name
+# TrackMania Tracker
 
-A brief description of the project.
+This project is a web application that allows users to track their progress in the game TrackMania.
 
 ## Table of Contents
 
@@ -12,13 +12,15 @@ A brief description of the project.
 
 ## Installation
 
-1. Unzip the project files to a directory of your choice
+1. Unzip the project files to a directory of your choice or clone the repository 
 2. Install the dependencies: `npm install`
+3. Run `npm install --save-dev @types/swagger-jsdoc @types/swagger-ui-express @types/express @types/node`
+4. In case of problems try `npm audit fix --force`
 
 ## Usage
 
 1. Start the application: `npm start`
-2. Open your browser and visit `http://localhost:3000`
+2. Open postman and send requests to `http://localhost:3000`
 
 ## API Documentation
 
@@ -32,7 +34,7 @@ We are not currently accepting contributions, stay tuned for further news regard
 
 MIT License
 
-Copyright (c) [2024] [Vergnol et Choippe-Breus]
+Copyright (c) [2024] [Vergnol et Chouipe-Bréus]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
