@@ -12,7 +12,7 @@ This project is a web application that allows users to track their progress in t
 
 ## Installation
 
-1. Unzip the project files to a directory of your choice or clone the repository 
+1. Unzip the project files to a directory of your choice or clone the repository.
 2. Install the dependencies: `npm install`
 3. Run `npm install --save-dev @types/swagger-jsdoc @types/swagger-ui-express @types/express @types/node`
 4. In case of problems try `npm audit fix --force`
